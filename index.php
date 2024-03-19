@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- , user-scalable=0 -->
-  <title>Project</title>
+  <title>Project 00249</title>
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -31,10 +31,12 @@
         </div>
 
         <div class="header__mail">
-          <div class="header__mail-icon">
-            <img src="./assets/img/icon_2.svg" alt="почта">
-          </div>
-          <div class="header__mail-desc"><a href="mailto:info@1avtokran.ru">info@1avtokran.ru</a></div>
+          <a href="mailto:info@1avtokran.ru">
+            <div class="header__mail-icon">
+              <img src="./assets/img/icon_2.svg" alt="почта">
+            </div>
+            <div class="header__mail-desc">info@1avtokran.ru</div>
+          </a>
         </div>
 
         <div class="header__phone">
@@ -263,7 +265,6 @@
     </div>
     <!-- END "Наши автокраны 12 тонн" -->
 
-
     <!-- START "Наши преимущества" -->
     <div class="advantages">
       <div class="container">
@@ -314,8 +315,6 @@
       </div>
     </div>
     <!-- END "Наши преимущества" -->
-
-
 
     <!-- START "Какие услуги мы оказываем" -->
     <div class="service">
@@ -389,8 +388,6 @@
     </div>
     <!-- END "Какие услуги мы оказываем" -->
 
-
-
     <!-- START "ЭКСКЛЮЗИВНАЯ АКЦИЯ!" -->
     <div class="exprom">
       <div class="container">
@@ -407,6 +404,7 @@
           <div class="exprom__second">
             <h2>ЭКСКЛЮЗИВНАЯ АКЦИЯ!</h2>
             <div class="exprom__second-txt">
+              <!-- rich -->
               <p>Арендуйте спецтехнику в Москве и области от Первый Автокран и получите эксклюзивные выгоды.</p>
               <p>Надежная техника, высокое качество обслуживания, и при этом - невероятные цены!</p>
               <p>Успейте воспользоваться специальными условиями нашей акции.</p>
@@ -432,7 +430,8 @@
 
           <div class="prices__body">
             <div class="prices__text">
-              <p>Ознакомьтесь с прозрачными и конкурентоспособными ценами на аренду техники от Первый Автокран. Предлагаем клиентам четкую структуру расценок, адаптированных под различные потребности. Эффективные решения для вашего бюджета. Выбирайте надежного партнера и экономьте с Первый Автокран!</p>
+              <!-- rich -->
+              Ознакомьтесь с прозрачными и конкурентоспособными ценами на аренду техники от Первый Автокран. Предлагаем клиентам четкую структуру расценок, адаптированных под различные потребности. Эффективные решения для вашего бюджета. Выбирайте надежного партнера и экономьте с Первый Автокран!
             </div>
             <div class="prices__btn-wrap">
               <div class="btn">посмотреть все цены</div>
@@ -445,10 +444,298 @@
     <!-- END "Цены на аренду техники" -->
 
 
+    <!-- START "Города и районы в которых мы работаем" -->
+    <div class="cities">
+      <div class="container">
+        <div class="cities__inner">
+          <h2>Города и районы в которых мы работаем</h2>
+
+          <div class="cities__slider">
+
+            <div class="cities__list">
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+              <div class="cities__item">
+                <div class="cities__item-img">
+                  <img src="./assets/img/cities_icon.svg" alt="Санкт-Петербург">
+                </div>
+                <div class="cities__item-name">Санкт-Петербург</div>
+              </div>
+
+            </div>
+
+            <div class="cities__slider-prev"></div>
+            <div class="cities__slider-next"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- END "Города и районы в которых мы работаем" -->
+
+
+    <!-- START "Не нашли подходящую технику?" -->
+    <div class="formnotfound">
+      <div class="container">
+        <div class="formnotfound__inner">
+
+          <div class="formnotfound__before"></div>
+
+          <div class="formnotfound__body">
+
+            <form>
+              <h2>Не нашли подходящую технику?</h2>
+              <p>Оставьте контакты и наши специалисты помогут с выбором</p>
+              <input type="text" placeholder="Ваше имя">
+              <input type="tel" placeholder="+7 (...) ... - .. - ..">
+              <input class="btn btn_input" type="submit" value="Оставить заявку">
+              <p>Нажимая на кнопку «Оставить заявку», вы соглашаетесь с нашей Политикой конфиденциальности</p>
+            </form>
+
+          </div>
+
+          <div class="formnotfound__after"></div>
+        </div>
+      </div>
+    </div>
+    <!-- END "Не нашли подходящую технику?" -->
+
+
+    <!-- START "О компании" -->
+    <div class="about">
+      <div class="container">
+        <div class="about__inner">
+
+          <div class="about__first">
+            <h2>О компании</h2>
+            <div class="about__desc">
+              <!-- rich -->
+              Добро пожаловать в "Первый Автокран" – ваш надежный партнер в аренде спецтехники в Москве и области! Наша компания предлагает широкий ассортимент современной техники для строительных, ремонтных и промышленных работ, и мы готовы стать ключевым звеном в успешной реализации ваших проектов.
+            </div>
+          </div>
+
+          <div class="about__second">
+            <div class="about__video">
+              <!-- start временная заглушка картинкой -->
+              <img src="./assets/img/about_Rectangle_37.png" alt="О компании">
+              <!-- end временная заглушка картинкой -->
+            </div>
+          </div>
+
+          <div class="about__third">
+            <h3>Наши преимущества:</h3>
+            <div class="about__advantages">
+
+              <div class="about__advantages-item">
+                <!-- rich -->
+                <b>Разнообразие техники:</b> "Первый Автокран" предоставляет доступ к разнообразному парку техники, включая автокраны различной грузоподъемности, бульдозеры, экскаваторы и многое другое. Независимо от масштаба проекта, у нас есть подходящая техника для эффективной реализации задач.
+              </div>
+
+              <div class="about__advantages-item">
+                <!-- rich -->
+                <b>Прозрачные цены:</b> Мы понимаем важность прозрачности в вопросах бюджета. В разделе "Цены на аренду техники" вы найдете четкую структуру расценок, предоставляющую вам ясное представление о затратах на аренду необходимой техники.
+              </div>
+
+              <div class="about__advantages-item">
+                <!-- rich -->
+                <b>Опытные водители и высокий уровень сервиса:</b> Наши профессиональные водители обладают большим опытом работы с техникой и гарантируют безопасное и эффективное ее использование. Мы также обеспечиваем высокий уровень сервиса, оперативную поддержку и техническое обслуживание.
+              </div>
+
+              <div class="about__advantages-item">
+                <!-- rich -->
+                <b>Гибкие условия аренды: "Первый Автокран"</b> стремится к максимальному удовлетворению потребностей клиентов. Мы предоставляем гибкие условия аренды, учитывая специфику каждого проекта и индивидуальные требования заказчика.
+              </div>
+
+
+            </div>
+
+            <h3>Почему выбирают нас?</h3>
+
+            <div class="about__desc">
+              <!-- rich -->
+              Надежность, качество, профессионализм – вот то, что отличает нас от конкурентов. Мы гордимся тем, что можем предоставить клиентам не только технику высочайшего уровня, но и команду специалистов, готовых сделать ваш проект успешным. Закажите аренду спецтехники в "Первый Автокран" прямо сейчас, и доверьтесь опыту и профессионализму лидера в отрасли! Вместе мы создадим будущее вашего строительного успеха.
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- END "О компании" -->
+
+    <!-- START "Наша техника в работе" -->
+    <div class="ourtech">
+      <div class="container">
+        <div class="ourtech__inner">
+          <h2>Наша техника в работе</h2>
+
+          <div class="ourtech__imgs">
+            <!-- grid -->
+
+            <div class="ourtech__imgs-item">
+              <img src="./assets/img/ourtech_img1.png" alt="Наша техника в работе 1">
+            </div>
+            <div class="ourtech__imgs-item">
+              <img src="./assets/img/ourtech_img2.png" alt="Наша техника в работе 2">
+            </div>
+            <div class="ourtech__imgs-item">
+              <img src="./assets/img/ourtech_img3.png" alt="Наша техника в работе 3">
+            </div>
+            <div class="ourtech__imgs-item">
+              <img src="./assets/img/ourtech_img4.png" alt="Наша техника в работе 4">
+            </div>
+            <div class="ourtech__imgs-item">
+              <img src="./assets/img/ourtech_img5.png" alt="Наша техника в работе 5">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- END "Наша техника в работе" -->
+
+
   </main>
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
+
+        <div class="footer__first">
+
+          <div class="footer__logo">
+            <div class="footer__logo-img">
+              <img src="./assets/img/logo.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+            </div>
+            <div class="footer__logo-desc">Аренда спецтехники в Москве и области</div>
+          </div>
+
+          <div class="footer-nav">
+            <nav>
+              <ul>
+                <li>О компании</li>
+                <li>Вакансии</li>
+                <li>Отзывы</li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="footer__phone">
+            <div class="footer__phone"><a href="tel:8 (499) 999-99-99">8 (499) 999-99-99</a></div>
+            <div class="footer__phone-desc">круглосуточно и без выходных</div>
+          </div>
+
+        </div>
+
+        <div class="footer__second">
+
+          <div class="footer__mail-address-wrap">
+
+            <div class="footer__mail">
+              <a href="mailto:info@1avtokran.ru">
+                <div class="footer__mail-icon">
+                  <img src="./assets/img/icon_2.svg" alt="почта">
+                </div>
+                <div class="footer__mail-desc">
+                  <div class="footer__mail-lbl">
+                    E-mail
+                  </div>
+                  <div class="footer__mail-txt">
+                    info@1avtokran.ru
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="footer__address">
+              <div class="footer__address-icon">
+                <img src="./assets/img/icon_3.svg" alt="Адрес офиса">
+              </div>
+              <div class="footer__address-desc">
+                <div class="footer__address-lbl">
+                  Адрес офиса
+                </div>
+                <div class="footer__address-txt">
+                  г.Москва, Алтуфьевское шоссе, д. 27, оф 337/2
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="footer__second-btn-wrap">
+            <div class="btn">Оставить заявку</div>
+          </div>
+
+        </div>
+
+
+        <div class="footer__third">
+          <div class="footer-copyright">© 2003 | 1avtokran.ru - Аренда спецтехники в Москве и области</div>
+        </div>
 
       </div>
     </div>
