@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- , user-scalable=0 -->
   <title>Project 00249</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -18,23 +19,23 @@
 
         <div class="header__logo">
           <div class="header__logo-img">
-            <img src="./assets/img/logo.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+            <a href="./">
+              <img src="./assets/img/logo.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+            </a>
           </div>
           <div class="header__logo-desc">Аренда спецтехники в Москве и области</div>
         </div>
 
         <div class="header__advantage">
-          <div class="header__advantage-icon">
-            <img src="./assets/img/icon_1.svg" alt="На рынке более 20 лет">
+          <div class="header__advantage-icon"><img src="./assets/img/icon_1.svg" alt="На рынке более 20 лет"></div>
+          <div class="header__advantage-desc">
+            <div class="header__advantage-desc-txt">На рынке более 20 лет</div>
           </div>
-          <div class="header__advantage-desc">На рынке более 20 лет</div>
         </div>
 
         <div class="header__mail">
           <a href="mailto:info@1avtokran.ru">
-            <div class="header__mail-icon">
-              <img src="./assets/img/icon_2.svg" alt="почта">
-            </div>
+            <div class="header__mail-icon"><img src="./assets/img/icon_2.svg" alt="почта"></div>
             <div class="header__mail-desc">info@1avtokran.ru</div>
           </a>
         </div>
@@ -47,25 +48,29 @@
       </div>
     </div>
 
+
+  </header>
+
+  <main class="main">
     <div class="header-nav">
       <div class="container">
         <nav>
           <ul>
-            <li>Главная</li>
-            <li>Каталог техники</li>
-            <li>Цены</li>
-            <li>Услуги</li>
-            <li>О компании</li>
-            <li>Наши работы</li>
-            <li>Вакансии</li>
-            <li>Отзывы</li>
+            <li><a href="./#">Главная</a></li>
+            <li class="current-menu-item"><a href="./#">Каталог техники</a></li>
+            <li><a href="./#">Цены</a></li>
+            <li><a href="./#">Услуги</a></li>
+            <li><a href="./#">О компании</a></li>
+            <li><a href="./#">Наши работы</a></li>
+            <li><a href="./#">Вакансии</a></li>
+            <li><a href="./#">Отзывы</a></li>
           </ul>
         </nav>
       </div>
     </div>
-  </header>
 
-  <main class="main">
+    <!-- END header -->
+
 
     <!-- START TOP -->
     <div class="top">
@@ -78,7 +83,7 @@
 
           <div class="top__second">
 
-            <h1 class="top__title">Аренда спецтехники без посредников в Москве и области!</h1>
+            <h1 class="top__title">Аренда спецтехники<br> без посредников<br> в Москве и области!</h1>
 
             <div class="top__discount">
               <div class="top__discount-icon">
@@ -116,59 +121,26 @@
 
             <div class="catalogchar__item">
 
-              <div class="catalogchar__item-img">
-                <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
-              </div>
-
-              <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
-
-              <div class="catalogchar__item-char-list">
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
-                  <div class="catalogchar__item-char-item-name">14т</div>
+              <div class="catalogchar__item-body">
+                <div class="catalogchar__item-img">
+                  <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
                 </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
-                  <div class="catalogchar__item-char-item-name">14м</div>
-                </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
-                  <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
-                </div>
-              </div>
 
-              <div class="catalogchar__item-offer">
-                <div class="catalogchar__item-offer-prices">
-                  <div class="catalogchar__item-offer-prices-first">от 8000 руб./смена</div>
-                  <div class="catalogchar__item-offer-prices-second">1000 руб./час</div>
-                </div>
-                <div class="catalogchar__item-offer-btn-wrap">
-                  <div class="btn">Оставить заявку</div>
-                </div>
-              </div>
+                <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
 
-            </div>
-
-            <div class="catalogchar__item">
-
-              <div class="catalogchar__item-img">
-                <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
-              </div>
-
-              <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
-
-              <div class="catalogchar__item-char-list">
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
-                  <div class="catalogchar__item-char-item-name">14т</div>
-                </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
-                  <div class="catalogchar__item-char-item-name">14м</div>
-                </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
-                  <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+                <div class="catalogchar__item-char-list">
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
+                    <div class="catalogchar__item-char-item-name">14т</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
+                    <div class="catalogchar__item-char-item-name">14м</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
+                    <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+                  </div>
                 </div>
               </div>
 
@@ -186,24 +158,26 @@
 
             <div class="catalogchar__item">
 
-              <div class="catalogchar__item-img">
-                <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
-              </div>
-
-              <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
-
-              <div class="catalogchar__item-char-list">
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
-                  <div class="catalogchar__item-char-item-name">14т</div>
+              <div class="catalogchar__item-body">
+                <div class="catalogchar__item-img">
+                  <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
                 </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
-                  <div class="catalogchar__item-char-item-name">14м</div>
-                </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
-                  <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+
+                <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
+
+                <div class="catalogchar__item-char-list">
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
+                    <div class="catalogchar__item-char-item-name">14т</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
+                    <div class="catalogchar__item-char-item-name">14м</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
+                    <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+                  </div>
                 </div>
               </div>
 
@@ -221,24 +195,63 @@
 
             <div class="catalogchar__item">
 
-              <div class="catalogchar__item-img">
-                <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
+              <div class="catalogchar__item-body">
+                <div class="catalogchar__item-img">
+                  <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
+                </div>
+
+                <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
+
+                <div class="catalogchar__item-char-list">
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
+                    <div class="catalogchar__item-char-item-name">14т</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
+                    <div class="catalogchar__item-char-item-name">14м</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
+                    <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+                  </div>
+                </div>
               </div>
 
-              <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
+              <div class="catalogchar__item-offer">
+                <div class="catalogchar__item-offer-prices">
+                  <div class="catalogchar__item-offer-prices-first">от 8000 руб./смена</div>
+                  <div class="catalogchar__item-offer-prices-second">1000 руб./час</div>
+                </div>
+                <div class="catalogchar__item-offer-btn-wrap">
+                  <div class="btn">Оставить заявку</div>
+                </div>
+              </div>
 
-              <div class="catalogchar__item-char-list">
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
-                  <div class="catalogchar__item-char-item-name">14т</div>
+            </div>
+
+            <div class="catalogchar__item">
+
+              <div class="catalogchar__item-body">
+                <div class="catalogchar__item-img">
+                  <img src="./assets/img/catalogchar_img.png" alt="Автокран Ивановец 14 тонн 14 метров">
                 </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
-                  <div class="catalogchar__item-char-item-name">14м</div>
-                </div>
-                <div class="catalogchar__item-char-item">
-                  <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
-                  <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+
+                <h5 class="catalogchar__item-title">Автокран Ивановец 14 тонн 14 метров</h5>
+
+                <div class="catalogchar__item-char-list">
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Грузоподъемность</div>
+                    <div class="catalogchar__item-char-item-name">14т</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Длина стрелы</div>
+                    <div class="catalogchar__item-char-item-name">14м</div>
+                  </div>
+                  <div class="catalogchar__item-char-item">
+                    <div class="catalogchar__item-char-item-lbl">Габариты крана (Д*Ш*В):</div>
+                    <div class="catalogchar__item-char-item-name">10х2,5х3,7м</div>
+                  </div>
                 </div>
               </div>
 
@@ -278,35 +291,35 @@
               <div class="advantages__item-img">
                 <img src="./assets/img/advantages_icon.svg" alt="Пропуск в центр Москвы">
               </div>
-              <div class="advantages__item-text">Пропуск в центр Москвы</div>
+              <div class="advantages__item-text">Пропуск<br> в центр Москвы</div>
             </div>
 
             <div class="advantages__item">
               <div class="advantages__item-img">
                 <img src="./assets/img/advantages_icon2.svg" alt="Разрешение от Ростехнадзора">
               </div>
-              <div class="advantages__item-text">Разрешение от Ростехнадзора</div>
+              <div class="advantages__item-text">Разрешение<br> от Ростехнадзора</div>
             </div>
 
             <div class="advantages__item">
               <div class="advantages__item-img">
                 <img src="./assets/img/advantages_icon3.svg" alt="Любой способ оплаты (с НДС и без)">
               </div>
-              <div class="advantages__item-text">Любой способ оплаты (с НДС и без)</div>
+              <div class="advantages__item-text">Любой способ оплаты<br> (с НДС и без)</div>
             </div>
 
             <div class="advantages__item">
               <div class="advantages__item-img">
                 <img src="./assets/img/advantages_icon4.svg" alt="Опытные водители граждане РФ">
               </div>
-              <div class="advantages__item-text">Опытные водители граждане РФ</div>
+              <div class="advantages__item-text">Опытные водители<br> граждане РФ</div>
             </div>
 
             <div class="advantages__item">
               <div class="advantages__item-img">
                 <img src="./assets/img/advantages_icon5.svg" alt="Большой парк техники">
               </div>
-              <div class="advantages__item-text">Большой парк техники</div>
+              <div class="advantages__item-text">Большой<br> парк техники</div>
             </div>
 
           </div>
@@ -398,7 +411,7 @@
           <div class="exprom__first">
             <div class="exprom__first-lbl">Скидка</div>
             <div class="exprom__first-percent">-10%</div>
-            <div class="exprom__first-info">при аренде 2-х единиц техники</div>
+            <div class="exprom__first-info">при аренде<br> 2-х единиц техники</div>
           </div>
 
           <div class="exprom__second">
@@ -548,9 +561,11 @@
             <form>
               <h2>Не нашли подходящую технику?</h2>
               <p>Оставьте контакты и наши специалисты помогут с выбором</p>
-              <input type="text" placeholder="Ваше имя">
-              <input type="tel" placeholder="+7 (...) ... - .. - ..">
-              <input class="btn btn_input" type="submit" value="Оставить заявку">
+              <div class="formnotfound__inputs">
+                <input type="text" placeholder="Ваше имя">
+                <input type="tel" placeholder="+7 (...) ... - .. - ..">
+                <input class="btn btn_input" type="submit" value="Оставить заявку">
+              </div>
               <p>Нажимая на кнопку «Оставить заявку», вы соглашаетесь с нашей Политикой конфиденциальности</p>
             </form>
 
@@ -568,20 +583,25 @@
       <div class="container">
         <div class="about__inner">
 
-          <div class="about__first">
-            <h2>О компании</h2>
-            <div class="about__desc">
-              <!-- rich -->
-              Добро пожаловать в "Первый Автокран" – ваш надежный партнер в аренде спецтехники в Москве и области! Наша компания предлагает широкий ассортимент современной техники для строительных, ремонтных и промышленных работ, и мы готовы стать ключевым звеном в успешной реализации ваших проектов.
-            </div>
-          </div>
+          <div class="about__first-second-wrap">
 
-          <div class="about__second">
-            <div class="about__video">
-              <!-- start временная заглушка картинкой -->
-              <img src="./assets/img/about_Rectangle_37.png" alt="О компании">
-              <!-- end временная заглушка картинкой -->
+            <div class="about__first">
+              <h2>О компании</h2>
+              <div class="about__desc">
+                <!-- rich -->
+                Добро пожаловать в "Первый Автокран" – ваш надежный партнер в аренде спецтехники в Москве и области! Наша компания предлагает широкий ассортимент современной техники для строительных, ремонтных и промышленных работ, и мы готовы стать ключевым звеном в успешной реализации ваших проектов.
+              </div>
             </div>
+
+            <div class="about__second">
+              <div class="about__video">
+                <div class="about__video_play"></div>
+                <!-- start временная заглушка картинкой -->
+                <img src="./assets/img/about_Rectangle_37.png" alt="О компании">
+                <!-- end временная заглушка картинкой -->
+              </div>
+            </div>
+
           </div>
 
           <div class="about__third">
@@ -659,7 +679,9 @@
     <!-- END "Наша техника в работе" -->
 
 
+    <!-- START footer -->
   </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -676,9 +698,9 @@
           <div class="footer-nav">
             <nav>
               <ul>
-                <li>О компании</li>
-                <li>Вакансии</li>
-                <li>Отзывы</li>
+                <li><a href="./#">О компании</a></li>
+                <li><a href="./#">Вакансии</a></li>
+                <li><a href="./#">Отзывы</a></li>
               </ul>
             </nav>
           </div>
@@ -740,7 +762,9 @@
       </div>
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 

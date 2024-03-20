@@ -1,1 +1,1 @@
-jQuery(document).ready((function(){}));
+!function(i){i(document).ready((function(){i(".cities__list").slick({infinite:!0,slidesToShow:7,slidesToScroll:1,prevArrow:i(".cities__slider-prev"),nextArrow:i(".cities__slider-next")})}))}(jQuery);
