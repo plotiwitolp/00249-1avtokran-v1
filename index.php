@@ -20,7 +20,7 @@
         <div class="header__logo">
           <div class="header__logo-img">
             <a href="./">
-              <img src="./assets/img/logo.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+              <img src="./assets/img/logo_header.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
             </a>
           </div>
           <div class="header__logo-desc">Аренда спецтехники в Москве и области</div>
@@ -54,18 +54,29 @@
   <main class="main">
     <div class="header-nav">
       <div class="container">
-        <nav>
-          <ul>
-            <li><a href="./#">Главная</a></li>
-            <li class="current-menu-item"><a href="./#">Каталог техники</a></li>
-            <li><a href="./#">Цены</a></li>
-            <li><a href="./#">Услуги</a></li>
-            <li><a href="./#">О компании</a></li>
-            <li><a href="./#">Наши работы</a></li>
-            <li><a href="./#">Вакансии</a></li>
-            <li><a href="./#">Отзывы</a></li>
-          </ul>
-        </nav>
+        <div class="header-nav__inner">
+          <div class="header__logo_mob">
+            <div class="header__logo-img">
+              <a href="./">
+                <img src="./assets/img/logo_footer.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+              </a>
+            </div>
+            <div class="header__logo-desc">Аренда спецтехники в Москве и области</div>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="./#">Главная</a></li>
+              <li class="current-menu-item"><a href="./#">Каталог техники</a></li>
+              <li><a href="./#">Цены</a></li>
+              <li><a href="./#">Услуги</a></li>
+              <li><a href="./#">О компании</a></li>
+              <li><a href="./#">Наши работы</a></li>
+              <li><a href="./#">Вакансии</a></li>
+              <li><a href="./#">Отзывы</a></li>
+            </ul>
+          </nav>
+          <div class="header-nav__mob-btn"><span></span><span></span><span></span></div>
+        </div>
       </div>
     </div>
 
@@ -655,19 +666,19 @@
           <div class="ourtech__imgs">
             <!-- grid -->
 
-            <div class="ourtech__imgs-item">
+            <div class="ourtech__imgs-item ourtech__imgs-item_1">
               <img src="./assets/img/ourtech_img1.png" alt="Наша техника в работе 1">
             </div>
-            <div class="ourtech__imgs-item">
+            <div class="ourtech__imgs-item ourtech__imgs-item_2">
               <img src="./assets/img/ourtech_img2.png" alt="Наша техника в работе 2">
             </div>
-            <div class="ourtech__imgs-item">
+            <div class="ourtech__imgs-item ourtech__imgs-item_3">
               <img src="./assets/img/ourtech_img3.png" alt="Наша техника в работе 3">
             </div>
-            <div class="ourtech__imgs-item">
+            <div class="ourtech__imgs-item ourtech__imgs-item_4">
               <img src="./assets/img/ourtech_img4.png" alt="Наша техника в работе 4">
             </div>
-            <div class="ourtech__imgs-item">
+            <div class="ourtech__imgs-item ourtech__imgs-item_5">
               <img src="./assets/img/ourtech_img5.png" alt="Наша техника в работе 5">
             </div>
 
@@ -690,7 +701,7 @@
 
           <div class="footer__logo">
             <div class="footer__logo-img">
-              <img src="./assets/img/logo.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
+              <img src="./assets/img/logo_footer.svg" alt="Первый Автокран. Аренда спецтехники в Москве и области">
             </div>
             <div class="footer__logo-desc">Аренда спецтехники в Москве и области</div>
           </div>
