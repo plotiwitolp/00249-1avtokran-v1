@@ -1,5 +1,9 @@
 <?php require_once './header.php'; ?>
 
+<!-- START "Хлебные крошки" -->
+<?php require_once './templates/breadcrumbs.php'; ?>
+<!-- END "Хлебные крошки" -->
+
 <!-- START TOP -->
 <?php require_once './templates/top.php'; ?>
 <!-- END TOP -->

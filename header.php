@@ -69,8 +69,8 @@ $_PARENT_URL = '/00249-1avtokran-v1';
                     </div>
                     <nav>
                         <ul>
-                            <li class="<?php echo $_SERVER['REQUEST_URI'] === $_PARENT_URL . '/' ? 'current-menu-item' : ''; ?>"><a href="./#">Главная</a></li>
-                            <li class="<?php echo $_SERVER['REQUEST_URI'] === $_PARENT_URL . '/autocrane.php' ? 'current-menu-item' : ''; ?>"><a href="./#">Каталог техники</a></li>
+                            <li><a href="./#">Главная</a></li>
+                            <li class="current-menu-item"><a href="./#">Каталог техники</a></li>
                             <li><a href="./#">Цены</a></li>
                             <li><a href="./#">Услуги</a></li>
                             <li><a href="./#">О компании</a></li>

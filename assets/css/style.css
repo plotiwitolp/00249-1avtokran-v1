@@ -1468,7 +1468,7 @@ h1 {
 }
 
 .topsingle {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .topsingle__main {
@@ -1991,7 +1991,7 @@ h1 {
             justify-content: center;
   }
   .topsingle {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 .header__logo_mob {
@@ -2268,6 +2268,7 @@ h1 {
   }
   .breadcrumbs {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 .chardesc__char-item-val {
