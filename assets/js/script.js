@@ -31,6 +31,15 @@
     });
     // end
     // start
+    $('.topsingle__img-list').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $('.topsingle__slider-prev'),
+      nextArrow: $('.topsingle__slider-next'),
+    });
+    // end
+    // start
     $('.header-nav__mob-btn').on('click', function () {
       $(this).toggleClass('active');
       $('.header-nav nav').toggleClass('active');
